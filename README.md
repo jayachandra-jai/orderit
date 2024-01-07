@@ -18,16 +18,13 @@ An Android and PHP-based Order Management App designed for restaurants. This app
 ## Screenshots
 
 **Android App:**
-
-![Android App Screenshot 1](./Screenshots/Android/CustomerHome.png)
-
-![Android App Screenshot 2](./screenshots/android_app_2.png)
+All Android screens screenshots Available here
+(./Screenshots/Android/)
 
 **PHP Admin Panel:**
+All PHP screens screenshots Available here
+(./screenshots/WEB/)
 
-![PHP Admin Panel Screenshot 1](./screenshots/admin_panel_1.png)
-
-![PHP Admin Panel Screenshot 2](./screenshots/admin_panel_2.png)
 
 ## Getting Started
 Order It is a revolutionary Android app to ease the order taking during rush hours at restaurant. With Order It, customers can use a self-ordering terminal at a table to access the restaurant menu and order a meal.This Repository is just for demo, I'm not providing the code here.
