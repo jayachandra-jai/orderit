@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    android:elevation="20dp"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp">
+
+            <TextView
+                android:id="@+id/rate_item_name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Dosa"
+                android:layout_weight="7"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rate_price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_margin="2dp"
+                android:gravity="right"
+                android:text="Rs. 0.0"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <RatingBar
+            android:id="@+id/rt_val"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:progressTint="#f49b0c"
+            android:secondaryProgressTint="#f49b0c"
+            android:stepSize="0.1"
+            android:rating="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

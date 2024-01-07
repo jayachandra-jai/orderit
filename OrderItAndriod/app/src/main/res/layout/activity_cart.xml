@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context="com.example.jai.orderit.CartActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/login_back"
+        android:alpha="0.2"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/my_cart_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/back_cart"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="40dp"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_height="35dp" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:text="Order Now"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/view_in_cart"
+            android:layout_below="@+id/appbar"
+            android:layout_above="@+id/ll_amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/ll_amount"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_above="@+id/but_order"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#000"
+                android:text="Total Amount"
+                android:layout_weight="0.8"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_amount"
+                android:textColor="#000"
+                android:text="Rs 0"
+                android:layout_weight="0.2"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:background="@color/colorPrimary"
+            android:id="@+id/but_order"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:text="Order Now"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

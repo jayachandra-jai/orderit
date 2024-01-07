@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jai.orderit.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center">
+        <ImageView
+            android:src="@drawable/login_back"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:alpha="0.2"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_margin="10dp"
+                app:hintTextAppearance="@style/CustomTextAppearance">
+
+                <EditText
+                    android:id="@+id/tab_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Table ID"
+                    android:inputType="textEmailAddress"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:hintTextAppearance="@style/CustomTextAppearance">
+
+                <EditText
+                    android:id="@+id/tab_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textSize="18sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/tab_login"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_back"
+                android:text="Login"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

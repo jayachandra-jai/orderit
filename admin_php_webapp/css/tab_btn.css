@@ -1,0 +1,131 @@
+
+.btn_red{
+  background-color: #f4511e;
+ /*  background-color: #AD0000;*/
+  
+  text-align: center;
+  
+  opacity: 1;
+  transition: 0.3s;
+      font-size: 28px;
+    color: #FFFFFF;
+    height: 100px;
+    width: 300px;
+}
+
+.btn_red:hover {opacity: 0.6}
+
+
+
+
+
+.btn_green{
+  background-color: #4CAF50;
+
+  text-align: center;
+ 
+  opacity: 1;
+  transition: 0.3s;
+      font-size: 28px;
+    color: #FFFFFF;
+    height: 100px;
+    width: 300px;
+}
+
+.btn_green:hover {opacity: 0.6}
+
+
+.btn_yellow{
+  background-color: #ffbf00;
+  text-align: center;
+  opacity: 1;
+  transition: 0.3s;
+      font-size: 28px;
+    color: #FFFFFF;
+    height: 100px;
+    width: 300px;
+}
+
+.btn_yellow:hover {opacity: 0.6}
+
+
+th
+{    padding-top: .3em;
+    padding-bottom: .3em;
+   margin-left: 0px;
+  
+}
+
+.my_btn_red{
+    background-color: #f4511e;
+    text-align: center;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-size: 18px;
+      width:72px ;
+}
+.my_btn_green{
+      background-color: #4CAF50;
+    text-align: center;
+          font-size: 18px;
+    color: #FFFFFF;
+      width:72px ;
+
+}
+
+
+
+
+.btn_pink {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+.btn_pink {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+
+.my_btn_hidden {
+  display:none;
+}
+
+

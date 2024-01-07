@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mybackground"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    tools:context="com.example.jai.orderit.SplashActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/login_back"
+        android:alpha="0.1"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/mylogos"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/myicon"
+        android:elevation="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="350dp"
+        android:layout_height="250dp" />
+        <TextView
+            android:id="@+id/order"
+
+            android:layout_below="@+id/mylogos"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order It" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+       android:layout_below="@+id/order"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makes Ur Order Simple...." />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

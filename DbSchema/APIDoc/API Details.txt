@@ -1,0 +1,43 @@
+API link:
+http://localhost/Fmenu/appconnections.php
+
+Task 1:Table Login
+	Parameters: 1. userLogin
+		    2. table_id
+                    3. password
+Task 2:Table Logout
+	Parameters: 1. userLogout
+		    2. table_id
+Task 3:View Items
+	Parameters: 1. viewItems
+		    2. food_type
+                    3. food_category
+Task 4:Customer Login
+	Parameters: 1. customerLogin
+		    2. cust_name
+		    3. tab_id
+Task 5:Item Insert in Cart
+	Parameters: 1. insertItem		
+		    2. order_id
+		    3. item_id
+		    4. quantity
+Task 6:Order Now(n times)
+	Parameters: 1. orderNow  
+		    2. order_id
+		    3. tab_id
+Task 7:Order Status(Active/Inactive)
+	Parameters: 1. orderStatus  
+		    2. order_id
+Task 8:View  Complete Order
+	Parameters: 1. viewOrder 
+		    2. order_id
+Task 9:Customer Check out
+	Parameters: 1. checkoutUser  
+		    2. tab_id
+Task 10: View reviews items 
+	Parameters: 1. reviewItems 
+		    2. order_id
+Task 10: Reviews from users 
+	Parameters: 1. updateReview
+		    2. item_id
+		    3. review_value

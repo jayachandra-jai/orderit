@@ -1,0 +1,124 @@
+.jumbotron {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.news-div {
+  display: inline-block; 
+  margin: 20px;
+}
+
+.news-img {
+  float: left; 
+  padding-right:20px;
+}
+
+.btn-title {
+  height: 100px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Login css design code */
+
+
+/* Full-width input fields */
+.input-login {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.button-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.button-login:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.modal-body {
+    position:relative; /* This avoids whatever it's absolute inside of it to go off the container */
+}
+
+.text-size {
+    font-size: 30px;
+}
+
+.item-inner {
+  margin: 30px;
+  padding: 60px 10px;
+  background: #f5f5f5;
+  min-height: 300px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.details {
+  font-size: 13px;
+  color: #999;
+}
+
+.contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact .glyphicon-img {
+    color: #6dbd63;
+    font-size: 60px;
+}
+
+.form .form-group {
+    max-width: 600px;
+    text-align: center;
+}
+
+.ab {
+    text-align: center;
+}
+
+.lineText {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+.lineText span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.para {
+    margin-bottom: 30px;
+}
+
+.row-margin {
+  margin-bottom: 20px;
+}
+
+.body-height {
+  min-height: 600px;
+}
+

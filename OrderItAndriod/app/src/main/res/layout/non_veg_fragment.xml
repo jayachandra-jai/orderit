@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/login_back"
+        android:alpha="0.1"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent" />
+
+    <GridView
+        android:layout_marginTop="10dp"
+        android:id="@+id/mynonveg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:columnWidth="100dp"
+        android:numColumns="3"
+        android:scrollbars="vertical"
+        android:verticalSpacing="20dp"
+        android:horizontalSpacing="5dp"
+        android:stretchMode="spacingWidthUniform"/>
+</RelativeLayout>
