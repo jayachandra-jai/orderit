@@ -1,5 +1,4 @@
-<a href="http://orderit.000webhostapp.com"><img src="http://orderit.000webhostapp.com/img/iconlogo.png" title="Order It" alt="Order It" height="250px" width="350px"></a>
-# Order Management App
+# Order Management App (My MCA Academic Project)
 
 An Android and PHP-based Order Management App designed for restaurants. This app allows customers to place orders using the Android app, and the restaurant staff can manage orders, generate bills, and more using the PHP-based admin panel.
 
